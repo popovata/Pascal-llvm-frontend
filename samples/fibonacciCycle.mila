@@ -1,0 +1,13 @@
+program fibonacciCycle;
+
+var I, NUM : integer;
+var X : array [0 .. 100] of integer;
+begin
+	X[0] := 1;
+	X[1] := 1;
+	readln(NUM);
+	for I := 2 to NUM - 1 do begin
+		X[I] := X[I - 1] + X[I - 2];
+	end;
+	writeln(X[NUM - 1]);	
+end.

@@ -1,0 +1,17 @@
+program breakTest;
+
+var I, TEMP, NUM, SUM : integer;
+var X : array [-20 .. 20] of integer;
+begin
+  for I := -20 to 20 do begin
+    X[I] := I;
+  end;
+
+  readln(NUM);
+  
+  for I := 0 to NUM - 1 do begin
+    writeln(X[I]);
+	if I = 5 then
+		break;
+  end;
+end.

@@ -1,0 +1,4 @@
+/home/tanya/pjp/popovta1/build/CMakeFiles/edit_cache.dir
+/home/tanya/pjp/popovta1/build/CMakeFiles/mila.dir
+/home/tanya/pjp/popovta1/build/CMakeFiles/rebuild_cache.dir
+/home/tanya/pjp/popovta1/build/CMakeFiles/intrinsics_gen.dir

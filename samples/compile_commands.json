@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/tanya/pjp/popovta1/samples",
+  "command": "clang++    -I/usr/lib/llvm-10/include    -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++14 -o CMakeFiles/mila.dir/main.cpp.o -c /home/tanya/pjp/popovta1/main.cpp",
+  "file": "/home/tanya/pjp/popovta1/main.cpp"
+},
+{
+  "directory": "/home/tanya/pjp/popovta1/samples",
+  "command": "clang++    -I/usr/lib/llvm-10/include    -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++14 -o CMakeFiles/mila.dir/Lexer.cpp.o -c /home/tanya/pjp/popovta1/Lexer.cpp",
+  "file": "/home/tanya/pjp/popovta1/Lexer.cpp"
+},
+{
+  "directory": "/home/tanya/pjp/popovta1/samples",
+  "command": "clang++    -I/usr/lib/llvm-10/include    -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++14 -o CMakeFiles/mila.dir/Parser.cpp.o -c /home/tanya/pjp/popovta1/Parser.cpp",
+  "file": "/home/tanya/pjp/popovta1/Parser.cpp"
+},
+{
+  "directory": "/home/tanya/pjp/popovta1/samples",
+  "command": "clang++    -I/usr/lib/llvm-10/include    -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++14 -o CMakeFiles/mila.dir/ast.cpp.o -c /home/tanya/pjp/popovta1/ast.cpp",
+  "file": "/home/tanya/pjp/popovta1/ast.cpp"
+}
+]

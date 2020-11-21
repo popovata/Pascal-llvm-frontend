@@ -1,0 +1,15 @@
+program factorial;
+
+function facti(n : integer) : integer;
+begin
+    facti := 1;
+    while n > 1 do
+    begin
+        facti := facti * n;
+        dec(n);
+    end
+end;    
+
+begin
+    writeln(facti(5));
+end.

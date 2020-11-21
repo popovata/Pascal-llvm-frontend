@@ -1,0 +1,29 @@
+
+@0 = private unnamed_addr constant [3 x i8] c"%d\00", align 1
+@1 = private unnamed_addr constant [2 x i8] c"\0A\00", align 1
+
+declare i32 @writeln(i32)
+
+declare i32 @write(i32)
+
+declare i32 @readln(i32*, ...)
+
+define i32 @main(i32 %0) {
+MainBegin:
+  %1 = alloca i32
+  store i32 10, i32* %1
+  %2 = alloca i32
+  store i32 16, i32* %2
+  %3 = alloca i32
+  store i32 8, i32* %3
+  %A = load i32, i32* %1
+  %4 = call i32 @writeln(i32 %A)
+  %B = load i32, i32* %2
+  %5 = call i32 @writeln(i32 %B)
+  %C = load i32, i32* %3
+  %6 = call i32 @writeln(i32 %C)
+  br label %MainEnd
+
+MainEnd:                                          ; preds = %MainBegin
+  ret i32 0
+}
